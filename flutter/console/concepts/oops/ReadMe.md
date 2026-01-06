@@ -52,3 +52,15 @@ class Student {
 - An `instance` of `<Class>`
 
 ---
+
+### Constructors
+
+> Types
+
+#### 1. Parameterized
+
+```dart
+void main{
+   Student studentOne =  Student("<Name>[str]", "<Age>[int]")
+}
+```

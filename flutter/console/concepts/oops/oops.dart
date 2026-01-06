@@ -1,11 +1,4 @@
 void main() {
-  //! What is OOPs?
-
-  //? Object has properties(data) and behaviors(functions).
-
-  //! What is class?
-  //? 1. Define blueprint for object (properties and behaviors).
-
   College rku = College("RK University", "Gandhinagar");
   rku.displayInfo();
   Student student1 = Student("Alice", 20, rku);
