@@ -2,6 +2,7 @@
 fun main(){
     mathOperations()
     orderOfOperationsExample()
+    increamentDecrementExample()
 }
 
 fun mathOperations(){
@@ -85,6 +86,18 @@ fun orderOfOperationsExample() {
       //> S = Subtraction
       val result = (5 + 3) * 2 - 4 / 2
       println("The result of the expression is $result")
+}
+
+fun increamentDecrementExample() {
+    var number = 10
+
+    //? Increment
+    number++
+    println("After incrementing, number is $number")
+
+    //? Decrement
+    number--
+    println("After decrementing, number is $number")
 }
 
 
