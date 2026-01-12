@@ -13,6 +13,18 @@
 
 ---
 
+### Interface
+
+> What is?
+
+- An interface `defines a set of methods` that a class must impliment.
+- Dart doesn't have a separate keyword like `interface`
+- Every class in Dart automatically acts as interface.
+- To use an interface, a class uses the `impliments` keyword
+- `@overwrite`
+
+---
+
 > Why use?
 
 - `Organizes` code properly
