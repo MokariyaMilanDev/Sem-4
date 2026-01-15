@@ -202,3 +202,68 @@ void main() {
   print(MathUtils.add(3, 5)); // 8
 }
 ```
+
+### Inheritance
+
+- When a `class derives` from `another class`
+- A class derives another class using the `extand` keyword.
+
+#### Types
+
+1. `Single` inharitance
+2. `Multilevel` inharitance
+3. `Hierarchial` Inheritance
+
+#### Syntax
+
+```dart
+class <ChildClass> extends <ParentClass>{}
+```
+
+#### Examples
+
+1. `Single`
+
+```dart
+class Animal {}
+
+class Dog extends Animal{}
+```
+
+2. `Multilevel`
+
+```dart
+class Animal {}
+
+class Mammal extends Animal{}
+
+class Dog extends Mammal{}
+```
+
+3. `Hierarchical`
+
+```dart
+class Animal {}
+
+class Dog extends Animal{}
+
+class Cat extends Animal{}
+```
+
+4. `Multiple`
+
+```dart
+// 1. Define separate mixins for specific behaviors
+mixin Flyable {
+  void fly() => print("Flying in the sky!");
+}
+
+mixin Swimmable {
+  void swim() => print("Swimming in the water!");
+}
+
+// 2. Apply multiple mixins to a class using 'with'
+class Duck with Flyable, Swimmable {
+  void quack() => print("Quack quack!");
+}
+```
