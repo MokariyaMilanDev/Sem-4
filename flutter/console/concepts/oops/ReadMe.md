@@ -267,3 +267,39 @@ class Duck with Flyable, Swimmable {
   void quack() => print("Quack quack!");
 }
 ```
+
+### `Super` keyword
+
+- the `super` keyword refers to the immediate `parent class`
+- It's used within `non-static methods` and `constructors` of the child class.
+
+#### Example
+
+```dart
+class Vehicle {
+  int numberOfWheels = 4;
+  void move() {
+    print("Moving on wheels...");
+  }
+}
+
+class Car extends Vehicle {
+  int numberOfWheels = 4; // Child shadows parent's variable
+
+  void displayInfo() {
+    print("Car has ${this.numberOfWheels} wheels."); // Accesses child's
+    print("Vehicle has ${super.numberOfWheels} wheels."); // Accesses parent's
+    super.move(); // Calls parent's method
+  }
+}
+
+void main() {
+  var myCar = Car();
+  myCar.displayInfo();
+}
+
+// Output:
+// Car has 4 wheels.
+// Vehicle has 4 wheels.
+// Moving on wheels...
+```
