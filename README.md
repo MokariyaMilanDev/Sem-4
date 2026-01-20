@@ -28,3 +28,13 @@
 - [**Number**](flutter/console/concepts/number/ReadMe.md)
 - [**OOPs**](flutter/console/concepts/oops/ReadMe.md)
 - [**String**](flutter/console/concepts/string/ReadMe.md)
+
+## Kotlin
+
+### Classes
+
+- [**Math**](/kotlin/console/classes/buitl-in/Math.kt)
+
+### Concepts
+
+- [**when statement**](kotlin/console/concepts/ReadMe.md)
