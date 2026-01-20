@@ -37,4 +37,6 @@
 
 ### Concepts
 
-- [**when statement**](kotlin/console/concepts/ReadMe.md)
+#### Keywords
+
+- [**when**](kotlin/console/concepts/keywords/when/ReadMe.md)
