@@ -21,6 +21,8 @@
 
 ### Concepts
 
+- [**Async**](flutter/console/concepts/async/ReadMe.md)
+- [**Data Types**](flutter/console/concepts/data_types/ReadMe.md)
 - [**Library**](flutter/console/concepts/library/ReadMe.md)
 - [**Map**](flutter/console/concepts/map/ReadMe.md)
 - [**Number**](flutter/console/concepts/number/ReadMe.md)
