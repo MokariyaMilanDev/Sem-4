@@ -37,6 +37,22 @@
 
 ### Concepts
 
-#### Keywords
+---
+
+> **Keywords**
 
 - [**when**](kotlin/console/concepts/keywords/when/ReadMe.md)
+
+---
+
+- [**List**](/kotlin/console/concepts/list/ReadMe.md)
+
+### Examples
+
+---
+
+> **List Type**
+
+- [**File**](/kotlin/console/examples/list/list_type.kt)
+
+---
