@@ -38,9 +38,9 @@
 
 **`.get()`**
 
-- Accept : `index` in `int`
-- Return : `value` from specific index
-- Exception : if specified `index` `value` is `not available` in the list
+- Accept: `index` in `int`
+- Return: `value` from specific index
+- Exception: if specified `index` `value` is `not available` in the list
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
@@ -56,9 +56,9 @@
 
 **`.indexOf()`**
 
-- Accept : `value`
-- Return : `index` of specified `value`
-- Note : `-1` return if specified `value` not exists
+- Accept: `value`
+- Return: `index` of specified `value`
+- Note: `-1` return if specified `value` not exists
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
@@ -67,9 +67,9 @@
 
 **`.contains()`**
 
-- Accept : `value`
-- Return : `bool`
-- Note : Return `true` if specified `value` exists else `false`
+- Accept: `value`
+- Return: `bool`
+- Note: Return `true` if specified `value` exists else `false`
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
@@ -78,7 +78,7 @@
 
 **`.first()`**
 
-- Return : first `value`
+- Return: first `value`
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
@@ -87,7 +87,7 @@
 
 **`.last()`**
 
-- Return : last `value`
+- Return: last `value`
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
@@ -96,7 +96,7 @@
 
 **`.isEmpty()`**
 
-- Return : `true` if list is `empty` else `false`
+- Return: `true` if list is `empty` else `false`
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
@@ -105,9 +105,107 @@
 
 **`.isNotEmpty()`**
 
-- Return : `true` if list isn't `empty` else `false`
+- Return: `true` if list isn't `empty` else `false`
 
 ```kotlin
    val subjectsName = listOf("A", "B", "C");
    println(subjectsName.isNotEmpty()) // true
+```
+
+---
+
+#### Modification
+
+**`.add()`**
+
+- Accept: `index`, `new value`
+- Return: `Boolean`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.add(2, "Test"))
+```
+
+**`.set()`**
+
+- Accept: `index`, `value`
+- Return: `Element`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.set(2, 30))
+```
+
+**`.remove()`**
+
+- Accept: `index`, `value`
+- Return: `Boolean`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.remove(2))
+```
+
+**`.removeAt()`**
+
+- Accept: `index`
+- Return: `Element`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.removeAt(2))
+```
+
+**`.clear()`**
+
+- Return: `Unit`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.clear())
+```
+
+---
+
+#### Transformations
+
+**`.filter{}`**
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.filter{ subject -> subject.startWith("A")})
+```
+
+**`.map{}`**
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.map{ subject -> "Test | " + subject })
+```
+
+**`.sorted{}`**
+
+- Return: `List<T>`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.sorted())
+```
+
+**`.reverse()`**
+
+- Return: `Unit`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.reverse())
+```
+
+**`.distinct()`**
+
+- Return: `List<T>`
+
+```kotlin
+   val subjectsName = mutableListOf("A", "B", "C");
+   println(subjectsName.distinct())
 ```
