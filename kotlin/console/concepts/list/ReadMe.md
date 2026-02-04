@@ -12,7 +12,7 @@
 #### syntax
 
 ```kotlin
-   var <ListName> = listOf<DataType>(<ValueOne>, <ValueTwo>, ....)
+   val <ListName> = listOf<DataType>(<ValueOne>, <ValueTwo>, ....)
 ```
 
 ### Mutable List
