@@ -57,6 +57,10 @@
 
 - [**Set**](/kotlin/console/concepts/set/ReadMe.md)
 
+---
+
+- [**Map**](/kotlin/console/concepts/map/ReadMe.md)
+
 ### Examples
 
 ---
