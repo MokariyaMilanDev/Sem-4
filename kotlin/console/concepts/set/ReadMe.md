@@ -69,3 +69,22 @@
 ```kotlin
    println(setOne.subtract(setTwo)); // [1, 5, 6, 0]
 ```
+
+### Iteration
+
+```kotlin
+val numbersSet = setOf<Int>(1, 2, 3, 4, 5, 6, 6, 5, 2, 1, 0)
+
+for(number in numbersSet){
+   println("[Set] Number: $number")
+}
+
+//> OUTPUT
+// [Set] Number: 1
+// [Set] Number: 2
+// [Set] Number: 3
+// [Set] Number: 4
+// [Set] Number: 5
+// [Set] Number: 6
+// [Set] Number: 0
+```

@@ -209,3 +209,26 @@
    val subjectsName = mutableListOf("A", "B", "C");
    println(subjectsName.distinct())
 ```
+
+### Iteration
+
+```kotlin
+val numbersList = listOf<Int>(1, 2, 3, 4, 5, 6, 6, 5, 2, 1, 0)
+
+for(number in numbersList){
+   println("[List] Number: $number")
+}
+
+//> OUTPUT
+// [List] Number: 1
+// [List] Number: 2
+// [List] Number: 3
+// [List] Number: 4
+// [List] Number: 5
+// [List] Number: 6
+// [List] Number: 6
+// [List] Number: 5
+// [List] Number: 2
+// [List] Number: 1
+// [List] Number: 0
+```

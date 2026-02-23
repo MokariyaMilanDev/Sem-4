@@ -57,3 +57,15 @@ var collegeMap: MutableMap<String, String> = mutableMapOf<String, String>(
 ```kotlin
    println(studentMap[1]);
 ```
+
+### Iteration
+
+```kotlin
+val numberMap = mapOf<String, String>("id" to "1")
+for(row in numberMap){
+   println("[Map] key: ${row.key} | value: ${row.value}")
+}
+
+//> OUTPUT
+// [Map] key: id | value: 1
+```
