@@ -52,7 +52,3 @@ for(row in numberMap){
    println("[Map] key: ${row.key} | value: ${row.value}")
 }
 ```
-
-<table>
-   <>
-</table>
